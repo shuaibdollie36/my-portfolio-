@@ -1,0 +1,289 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+.Landing {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.Navbar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  overflow-x: hidden;
+  left: 0;
+  top: 0;
+}
+
+.Navbar a,
+.dropdown-btn {
+  display: flex;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: antiquewhite;
+  display: block;
+  justify-content: center;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  margin: 15px;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.Navbar a:hover {
+  color: aquamarine;
+}
+
+.Name {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: White;
+  margin: 400px;
+  flex-direction: column;
+  font-size: 25px;
+  height: 30px;
+}
+.text {
+  font-size: 30px;
+}
+q {
+  color: aquamarine;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+body {
+  display: flex;
+  background-color: #111111;
+}
+span {
+  color: antiquewhite;
+}
+
+div #boop {
+  height: 0vh;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  color: White;
+  margin: 200px;
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.image1 {
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+}
+.image2 {
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  color: White;
+  margin: 200px;
+  flex-direction: column;
+  font-size: 20px;
+  height: 10px;
+}
+.navpic {
+  width: 250px;
+  height: 150px;
+  margin-bottom: 150px;
+  margin-left: 25px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 20px;
+}
+.interests {
+  display: flex;
+  flex-direction: column;
+  color: aquamarine;
+  margin: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  height: 20px;
+  margin-top: 360px;
+}
+.vvl {
+  display: flex;
+  margin-bottom: 15px;
+  color: aquamarine;
+}
+.heading {
+  margin-bottom: 25px;
+}
+.int {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.ski {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  color: aquamarine;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.int {
+  color: white;
+  margin-top: 5px;
+}
+.college {
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.col {
+  color: aquamarine;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.image3 {
+  margin-top: 50px;
+  width: 200px;
+  height: 150px;
+  margin-left: 50px;
+}
+
+.image4 {
+  margin-top: 50px;
+  width: 200px;
+  height: 150px;
+}
+.sp {
+  color: aquamarine;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.sub {
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.work {
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.title1 {
+  font-size: 30px;
+  color: aquamarine;
+}
+.vtec {
+  font-family: sans-serif;
+  color: white;
+}
+
+.ico {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  background-color: aquamarine;
+  padding: 10px;
+  margin-left: 35%;
+}
+
+.college-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.container2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.container3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.cf {
+  font-size: 50px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: aquamarine;
+}
+.tl {
+  font-size: 50px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: aquamarine;
+}
+.tt {
+  font-size: 50px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: aquamarine;
+}
+
+.button :hover {
+  color: black;
+  background-color: aquamarine;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.button {
+  padding: 10px;
+}
