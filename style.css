@@ -5,7 +5,10 @@
 }
 body {
   font-family: sans-serif;
+  display: flex;
+  background-color: #111111;
 }
+
 #bg-img {
 }
 
@@ -70,10 +73,6 @@ q {
   font-family: sans-serif;
   font-size: 50px;
 }
-body {
-  display: flex;
-  background-color: #111111;
-}
 span {
   color: antiquewhite;
 }
@@ -95,11 +94,13 @@ div #boop {
   width: 250px;
   height: 250px;
   margin-top: 10px;
+  border-radius: 150px;
 }
 .image2 {
   width: 250px;
   height: 250px;
   margin-left: px;
+  border-radius: 150px;
 }
 
 .me {
@@ -181,7 +182,7 @@ div #boop {
   border-radius: 50%;
 }
 .image9 {
-  margin-top: 50px;
+  margin-top: 35px;
   width: 250px;
   height: 200px;
   margin-left: px;
@@ -247,38 +248,39 @@ div #boop {
 }
 
 .container1 {
-  font-size: 30px;
+  font-size: 20px;
   font-family: sans-serif;
-  margin-left: 400px;
-  margin-top: 50px;
+  margin-left: 250px;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 .container2 {
-  font-size: 30px;
+  font-size: 20px;
   font-family: sans-serif;
-  margin-left: 400px;
-  margin-top: 50px;
+  margin-left: 250px;
+  margin-bottom: 100px;
 }
 .container3 {
-  font-size: 30px;
+  font-size: 20px;
   font-family: sans-serif;
-  margin-left: 400px;
-  margin-top: 50px;
+  margin-left: 250px;
+  margin-bottom: 200px;
 }
 
 .cf {
-  font-size: 50px;
+  font-size: 30px;
   font-family: sans-serif;
   text-transform: uppercase;
   color: aquamarine;
 }
 .tl {
-  font-size: 50px;
+  font-size: 30px;
   font-family: sans-serif;
   text-transform: uppercase;
   color: aquamarine;
 }
 .tt {
-  font-size: 50px;
+  font-size: 30px;
   font-family: sans-serif;
   text-transform: uppercase;
   color: aquamarine;
@@ -294,7 +296,8 @@ div #boop {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
+  margin-bottom: 200px;
 }
 .buttons {
   display: flex;
@@ -328,6 +331,7 @@ div #boop {
   padding: 1% 1%;
   color: white;
   box-sizing: border-box;
+  width: 50%;
 }
 
 .xxx {
@@ -365,7 +369,7 @@ div #boop {
   margin-top: 10px;
 }
 .zzz {
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .yyy {
@@ -380,6 +384,7 @@ div #boop {
 .contact-info {
   color: white;
   margin-bottom: px;
+  margin-left: -25%;
 }
 
 #contact-form {
@@ -402,18 +407,21 @@ div #boop {
   align-items: center;
   font-size: 50px;
   color: aquamarine;
+  margin-left: -25%;
 }
 .contact-input {
   display: flex;
   justify-content: center;
   padding: 10px;
   border: none;
-  width: 100%;
+  width: 150%;
+  margin-left: -25%;
   border-radius: 10px;
   background: #ebe5e5;
   box-shadow: inset 20px 20px 33px #c8c3c3, inset -20px -20px 33px #ffffff;
   padding: 15px;
 }
+
 .bt8 {
   width: 100%;
   margin-top: 15px;
@@ -446,6 +454,8 @@ div #boop {
 .hbk {
   background-image: url(./Images/bk3.jpg);
   background-size: cover;
+  max-height: 100vh;
+  overflow-y: auto;
 }
 .yyy {
   background-image: url(./Images/bk3.jpg);
@@ -454,10 +464,43 @@ div #boop {
 
 .icons i {
   font-size: 200%;
-  color: #000000;
+  color: white;
 }
 
 .icons i:hover {
   color: aquamarine;
   transition: 0.3s ease-in;
+}
+.hhh {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 245px;
+}
+.john {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 80px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  box-shadow: 0 6px 10px 0 aquamarine;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 15px;
+  margin-left: 300px;
+  color: antiquewhite;
 }
