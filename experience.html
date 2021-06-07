@@ -11,78 +11,69 @@
 
     <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glassmorphic Timeline</title>
+    <!-- 3rd party CSS First -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Personal Stylesheets -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="bg4">
     <div class="Landing">
       <div class="Navbar">
-        <img class="navpic" src="./Images/navbars.png" />
-        <a href="./index.html">Home</a>
-        <a href="./about.html">About</a>
-        <a href="./experience.html">Experiences</a>
-        <a href="./projects.html">Projects</a>
-        <a href="./testimonial.html">Testimonial</a>
-        <a href="./contact.html">Contact me</a>
-      </div>
-      <div class="college-container">
-        <div class="college">
-          <h1 data-aos-duration="3000" data-aos="flip-right" class="col">
-            High School
-          </h1>
-          <img class="image3" src="./Images/new orleans.jpeg" />
-          <h2 class="title1">New Orleans Secondary</h2>
-          <h3 class="vtec">2010-2015</h3>
-
-          <div class="sub">
-            <li>Accounting/Mathematical Literacy</li>
-            <li>Business Studies/English</li>
-            <li>CAT/Afrikaans/LO</li>
-          </div>
-        </div>
-        <div class="college">
-          <h1 data-aos-duration="3000" data-aos="flip-right" class="col">
-            Studies
-          </h1>
-          <img class="image9" src="./Images/bc.jpeg" />
-          <h2 class="title1">Boland College Paarl</h2>
-          <h3 class="vtec">2016-2017</h3>
-
-          <div class="sub">
-            <li>N4 Financial Management</li>
-            <li>N5 Financial Management</li>
-            <li>N6 Financial Management</li>
-          </div>
+        <div class="navbar1">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./experience.html">Experiences</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./testimonial.html">Testimonial</a>
+          <a href="./contact.html">Contact me</a>
         </div>
       </div>
-      <div class="college-container">
-        <div class="college">
-          <h1 data-aos-duration="3000" data-aos="flip-right" class="sp">
-            Work Experience
-          </h1>
-          <img class="image3" src="./Images/Partline.png" />
-          <h2 class="title1">Partline Motorsport</h2>
-          <h3 class="vtec">2017-2019</h3>
+      <div>
+        <section class="timeline-container">
+          <div class="line"></div>
 
-          <div class="sub">
-            <li>Sales</li>
-            <li>Invoicing</li>
-            <li>Stock Control</li>
-            <i class="fas fa-mobile-alt"> <p>0612121992</p></i>
+          <div data-aos="fade-left" class="timeline-item item-1">
+            <h2>Life Skills Academy- <span>Education</span></h2>
+            <h3>2021</h3>
+            <p>Aspiring Front end Developer</p>
           </div>
-        </div>
-        <div class="college">
-          <h1 data-aos-duration="3000" data-aos="flip-right" class="col">
-            Work Experience
-          </h1>
-          <img class="image4" src="./Images/Logo.jpg" />
-          <h2 class="title1">Powerstar Paarl</h2>
-          <h3 class="vtec">2019-2021</h3>
-          <div class="work">
-            <li>Storeman/Driver</li>
-            <li>Invoicing/Job Cards</li>
-            <li>Company Buyer/ GRVS</li>
-            <i class="fas fa-mobile-alt"> <p>0218625400</p></i>
+          <div data-aos="fade-right" class="timeline-item item-2">
+            <h2>Powerstar Paarl- <span>Work</span></h2>
+            <h3>2019-2021</h3>
+            <h4>Storeman</h4>
+            <p>Company Buyer invoicing,grvs,job cards,stock control.</p>
+            <p>Team Management</p>
+            <p>Working with 5 teams of mechanics in the workshop</p>
           </div>
-        </div>
+          <div data-aos="fade-left" class="timeline-item item-3">
+            <h2>Partline Motorsport- <span>Sales</span></h2>
+            <h3>2017-2019</h3>
+            <p>
+              Started Working for Partline Motorsport Sales parts and admin.
+            </p>
+          </div>
+          <div data-aos="fade-right" class="timeline-item item-4">
+            <h2>Boland College Paarl-<span>Financial Management</span></h2>
+            <h3>2016-2017</h3>
+            <p>National senior certificate N4</p>
+            <p>National senior certificate N5</p>
+            <p>National senior certificate N6</p>
+          </div>
+          <div data-aos="fade-left" class="timeline-item item-5">
+            <h2>New Orleans Secondary School- <span>High-school</span></h2>
+            <h3>2010-2015</h3>
+            <p>National Senior Certificate</p>
+          </div>
+        </section>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
       </div>
 
       <div class="ico">
@@ -94,9 +85,7 @@
       </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+
     <footer>Made by Shu-Aib</footer>
   </body>
 </html>

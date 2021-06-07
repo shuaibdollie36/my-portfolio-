@@ -9,19 +9,21 @@ body {
   background-color: #111111;
 }
 
-#bg-img {
-}
-
 .Landing {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
 
+.navbaritems {
+  margin-left: 60px;
+}
+
 .Navbar {
   height: 100%;
   width: 300px;
   position: fixed;
+
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -32,7 +34,10 @@ body {
   left: 0;
   top: 0;
 }
+.navbar1{
+margin-left: 50px;
 
+}
 .Navbar a,
 .dropdown-btn {
   display: flex;
@@ -51,19 +56,65 @@ body {
   margin-bottom: 10px;
 }
 .Navbar a:hover {
+  color:whitesmoke;
+}
+
+
+
+.icons2{
+  font-size: 130%;
+  color: white;
+  margin-right:100 px;
+  margin-bottom: 180px;
+  
+
+ 
+}.icons2 :hover {
   color: aquamarine;
 }
 
-.Name {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  color: White;
-  margin: 400px;
-  flex-direction: column;
-  font-size: 25px;
-  height: 30px;
+.fa-linkedin{
+  color: white;
+
 }
+.fa-whatsapp{
+
+  color: white;
+
+}
+/* .fa-whatsapp{ */
+
+
+
+
+.name2{
+  margin-top: 1px;
+  margin-left: 100px;
+  color: whitesmoke;
+  margin-top:400px;
+}
+.asp{
+  margin-right: 100px;
+  margin-top: 5px;
+  font-family: montserrat;
+  font-style: italic;
+  font-weight: 500;
+  max-width: 450px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.name1{
+
+  font-size:50px;
+  line-height: 1.4;
+  font-family: montserrat;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: whitesmoke;
+
+}
+
 .text {
   font-size: 30px;
 }
@@ -80,26 +131,24 @@ span {
 div #boop {
   height: 0vh;
 }
-
-.about {
-  display: flex;
-  justify-content: center;
-  color: White;
-  margin: 200px;
-  font-family: sans-serif;
-  margin-left: 10px;
+.heading {
+  margin-left: 700px;
+  font-family: montserrat;
+  font-size: 40px;
+  
+  text-transform: uppercase;
+  
 }
+
+
 
 .image1 {
   width: 250px;
   height: 250px;
-  margin-top: 10px;
-  border-radius: 150px;
-}
-.image2 {
-  width: 250px;
-  height: 250px;
-  margin-left: px;
+  margin-left: 650px;
+  margin-top: 370px;
+  animation: morph 8s ease-in-out infinite 1s;
+  background-blend-mode: multiply;
   border-radius: 150px;
 }
 
@@ -114,12 +163,6 @@ div #boop {
   margin-bottom: 50 px;
   margin-left: 400px;
 }
-.navpic {
-  width: 250px;
-  height: 150px;
-  margin-bottom: 150px;
-  margin-left: 25px;
-}
 
 .info {
   display: flex;
@@ -130,7 +173,7 @@ div #boop {
 .interests {
   display: flex;
   flex-direction: column;
-  color: aquamarine;
+  color:whitesmoke;
   margin: 50px;
   font-size: 20px;
   font-family: sans-serif;
@@ -138,11 +181,7 @@ div #boop {
   height: 20px;
   margin-top: 440px;
 }
-.vvl {
-  display: flex;
-  margin-bottom: 15px;
-  color: aquamarine;
-}
+
 .heading {
   margin-bottom: 25px;
 }
@@ -155,7 +194,7 @@ div #boop {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-  color: aquamarine;
+  color:whitesmoke;
   font-family: sans-serif;
   font-size: 30px;
   text-transform: uppercase;
@@ -169,38 +208,18 @@ div #boop {
   margin-top: 100px;
 }
 .col {
-  color: aquamarine;
+  color: whitesmoke;
   font-family: sans-serif;
   text-transform: uppercase;
   font-size: 30px;
 }
-.image3 {
-  margin-top: 50px;
-  width: 250px;
-  height: 200px;
-  margin-left: 50px;
-  border-radius: 50%;
-}
-.image9 {
-  margin-top: 35px;
-  width: 250px;
-  height: 200px;
-  margin-left: px;
-  border-radius: 50%;
-}
+
 .vtec {
   margin-top: 10px;
 }
 
-.image4 {
-  margin-top: 50px;
-  width: 250px;
-  height: 200px;
-  border-radius: 50%;
-  margin-top: 10px;
-}
 .sp {
-  color: aquamarine;
+  color:whitesmoke;
   font-family: sans-serif;
   text-transform: uppercase;
   font-size: 30px;
@@ -223,7 +242,7 @@ div #boop {
 }
 .title1 {
   font-size: 30px;
-  color: aquamarine;
+  color:whitesmoke;
 }
 .vtec {
   font-family: sans-serif;
@@ -232,14 +251,16 @@ div #boop {
 
 .ico {
   margin-bottom: 100px;
-  margin-top: 120px;
-  font-size: 40px;
+
+  font-size: 25px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-right: 100px;
-  background-color: aquamarine;
+  background-color:whitesmoke;
   padding: 10px;
-  margin-left: 20%;
+  margin-left: 450px;
+  padding-left: 100px;
+  padding-right: 250px;
 }
 
 .college-container {
@@ -251,7 +272,7 @@ div #boop {
   font-size: 20px;
   font-family: sans-serif;
   margin-left: 250px;
-  margin-top: 200px;
+  margin-top: 180px;
   margin-bottom: 100px;
 }
 .container2 {
@@ -264,7 +285,7 @@ div #boop {
   font-size: 20px;
   font-family: sans-serif;
   margin-left: 250px;
-  margin-bottom: 200px;
+  margin-bottom: 180px;
 }
 
 .cf {
@@ -322,8 +343,8 @@ div #boop {
   font-family: sans-serif;
   margin-left: 650px;
   justify-content: flex-start;
-  background-image: url(./Images/bk3.jpg);
-  box-shadow: 0 6px 10px 0 aquamarine;
+ ;
+ 
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 10px;
@@ -348,7 +369,7 @@ div #boop {
   /* margin-left: 100px; */
   font-size: 25px;
   font-size: 30px;
-  color: aquamarine;
+  color:whitesmoke;
 }
 .nmes {
   display: flex;
@@ -380,6 +401,7 @@ div #boop {
   align-items: center;
   background-image: url(./Images/contact\ image.jpg);
   background-size: cover;
+  margin-bottom: 450px;
 }
 .contact-info {
   color: white;
@@ -389,7 +411,6 @@ div #boop {
 
 #contact-form {
   border-radius: 100px;
-  background: ;
 
   padding: 15% 15%;
   color: whitesmoke;
@@ -405,8 +426,8 @@ div #boop {
   width: 100%;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
-  color: aquamarine;
+  font-size: 40px;
+  color:whitesmoke;
   margin-left: -25%;
 }
 .contact-input {
@@ -430,7 +451,7 @@ div #boop {
   font-family: sans-serif;
 }
 .bt8 :hover {
-  background-color: aquamarine;
+  background-color:rgb(243, 250, 248);
 }
 .space {
   margin-top: 15px;
@@ -439,38 +460,9 @@ div #boop {
   background-image: url(./Images/bk2.png);
   background-size: cover;
 }
-.bg2 {
-  background-image: url(./Images/bk3.jpg);
-  background-size: cover;
-}
-.bg4 {
-  background-image: url(./Images/bk3.jpg);
-  background-size: cover;
-}
-#bg-img {
-  background-image: url(./Images/bk3.jpg);
-  background-size: cover;
-}
-.hbk {
-  background-image: url(./Images/bk3.jpg);
-  background-size: cover;
-  max-height: 100vh;
-  overflow-y: auto;
-}
-.yyy {
-  background-image: url(./Images/bk3.jpg);
-  background-size: cover;
-}
 
-.icons i {
-  font-size: 200%;
-  color: white;
-}
 
-.icons i:hover {
-  color: aquamarine;
-  transition: 0.3s ease-in;
-}
+
 .hhh {
   display: flex;
   justify-content: center;
@@ -503,4 +495,166 @@ footer {
   margin-bottom: 15px;
   margin-left: 300px;
   color: antiquewhite;
+}
+.map{
+  margin-left: 225px;
+  margin-top: 360px;
+}
+
+.form{
+  margin-left: 560px;
+  margin-top: 260px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.landing {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url(./images/Mercedes\ Benz.jpg);
+  background-size: cover;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 600%;
+  color: rgba(132, 132, 132, 1);
+}
+
+.timeline-container {
+  display: grid;
+  grid-template-columns: 1fr 10% 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  background-image: url(./images/teaser.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-items: center;
+  padding: 10%;
+  margin-left: 250px;
+}
+
+.line {
+  width: 10px;
+  height: 100%;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  background: rgb(250, 248, 248);
+  
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.item-1 {
+  grid-column: 3;
+  grid-row: 1;
+  font-size: 100%;
+}
+
+.item-2 {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 100%;
+}
+
+.item-3 {
+  grid-column: 3;
+  grid-row: 3;
+  font-size: 100%;
+}
+
+.item-4 {
+  grid-column: 1;
+  grid-row: 4;
+  font-size: 100%;
+}
+
+.item-5{
+  grid-column: 3;
+  grid-row: 5;
+  font-size: 100%;
+
+}
+
+.timeline-item {
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  padding: 10%;
+  margin: 10%;
+  background: rgba(12, 11, 11, 0.692);
+ 
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .timeline-container {
+    grid-template-columns: 5% 1fr;
+  }
+
+  .line {
+    grid-column-start: 1;
+    color: whitesmoke;
+  }
+
+  .timeline-item {
+    grid-column: 2;
+  }
+}
+.aboutme h1{
+  margin-bottom: 30px;
+  font-size: 40px;
+  margin-left: 900px;
+  color: whitesmoke;
+  font-family: montserrat;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.aboutme p{
+  margin-bottom: 25px;
+  font-size: 20px;
+  margin-left: 350px;
+  color: whitesmoke;
+  font-family: montserrat;
+  margin-right: 30px;
+  
+}
+.why h2{
+  margin-bottom: 25px;
+  font-size: 40px;
+  margin-left: 920px;
+  color: whitesmoke;
+  font-family: montserrat;
+  text-transform: uppercase;
+  margin-top: 30px;
+
+}
+.why p{
+  /* margin-b: 25px; */
+  font-size: 20px;
+  margin-left: 350px;
+  color: whitesmoke;
+  font-family: montserrat;
+  margin-right: 30px;
+
+
+}
+.aboutme{
+  margin-bottom: 600px;
+}
+.per{
+  margin-left: 100px;
 }
