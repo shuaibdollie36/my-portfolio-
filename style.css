@@ -34,9 +34,8 @@ body {
   left: 0;
   top: 0;
 }
-.navbar1{
-margin-left: 50px;
-
+.navbar1 {
+  margin-left: 50px;
 }
 .Navbar a,
 .dropdown-btn {
@@ -56,44 +55,37 @@ margin-left: 50px;
   margin-bottom: 10px;
 }
 .Navbar a:hover {
-  color:whitesmoke;
+  color: whitesmoke;
 }
 
-
-
-.icons2{
+.icons2 {
   font-size: 130%;
   color: white;
-  margin-right:100 px;
+  margin-right: 100 px;
   margin-bottom: 180px;
-  
-
- 
-}.icons2 :hover {
-  color: aquamarine;
+}
+.icons2 :hover {
+  color: white;
 }
 
-.fa-linkedin{
+.fa-linkedin {
   color: white;
-
 }
-.fa-whatsapp{
-
+.fa-whatsapp {
   color: white;
-
 }
 /* .fa-whatsapp{ */
 
-
-
-
-.name2{
+.per {
+  margin-top: 25px;
+}
+.name2 {
   margin-top: 1px;
   margin-left: 100px;
   color: whitesmoke;
-  margin-top:400px;
+  margin-top: 400px;
 }
-.asp{
+.asp {
   margin-right: 100px;
   margin-top: 5px;
   font-family: montserrat;
@@ -104,22 +96,20 @@ margin-left: 50px;
   font-size: 25px;
 }
 
-.name1{
-
-  font-size:50px;
+.name1 {
+  font-size: 50px;
   line-height: 1.4;
   font-family: montserrat;
   text-transform: uppercase;
   font-weight: 800;
   color: whitesmoke;
-
 }
 
 .text {
   font-size: 30px;
 }
 q {
-  color: aquamarine;
+  color: white;
   text-transform: uppercase;
   font-family: sans-serif;
   font-size: 50px;
@@ -135,12 +125,9 @@ div #boop {
   margin-left: 700px;
   font-family: montserrat;
   font-size: 40px;
-  
+
   text-transform: uppercase;
-  
 }
-
-
 
 .image1 {
   width: 250px;
@@ -173,7 +160,7 @@ div #boop {
 .interests {
   display: flex;
   flex-direction: column;
-  color:whitesmoke;
+  color: whitesmoke;
   margin: 50px;
   font-size: 20px;
   font-family: sans-serif;
@@ -194,7 +181,7 @@ div #boop {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-  color:whitesmoke;
+  color: whitesmoke;
   font-family: sans-serif;
   font-size: 30px;
   text-transform: uppercase;
@@ -219,7 +206,7 @@ div #boop {
 }
 
 .sp {
-  color:whitesmoke;
+  color: whitesmoke;
   font-family: sans-serif;
   text-transform: uppercase;
   font-size: 30px;
@@ -242,7 +229,7 @@ div #boop {
 }
 .title1 {
   font-size: 30px;
-  color:whitesmoke;
+  color: whitesmoke;
 }
 .vtec {
   font-family: sans-serif;
@@ -256,7 +243,7 @@ div #boop {
   display: flex;
   justify-content: space-around;
   margin-right: 100px;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   padding: 10px;
   margin-left: 450px;
   padding-left: 100px;
@@ -292,24 +279,24 @@ div #boop {
   font-size: 30px;
   font-family: sans-serif;
   text-transform: uppercase;
-  color: aquamarine;
+  color: white;
 }
 .tl {
   font-size: 30px;
   font-family: sans-serif;
   text-transform: uppercase;
-  color: aquamarine;
+  color: white;
 }
 .tt {
   font-size: 30px;
   font-family: sans-serif;
   text-transform: uppercase;
-  color: aquamarine;
+  color: white;
 }
 
 .button :hover {
   color: black;
-  background-color: aquamarine;
+  background-color: white;
 }
 .projects {
   display: flex;
@@ -319,6 +306,7 @@ div #boop {
   width: 100vw;
   height: 70vh;
   margin-bottom: 200px;
+  margin-top: 100px;
 }
 .buttons {
   display: flex;
@@ -343,8 +331,6 @@ div #boop {
   font-family: sans-serif;
   margin-left: 650px;
   justify-content: flex-start;
- ;
- 
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 10px;
@@ -369,7 +355,7 @@ div #boop {
   /* margin-left: 100px; */
   font-size: 25px;
   font-size: 30px;
-  color:whitesmoke;
+  color: whitesmoke;
 }
 .nmes {
   display: flex;
@@ -427,7 +413,7 @@ div #boop {
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  color:whitesmoke;
+  color: whitesmoke;
   margin-left: -25%;
 }
 .contact-input {
@@ -451,7 +437,7 @@ div #boop {
   font-family: sans-serif;
 }
 .bt8 :hover {
-  background-color:rgb(243, 250, 248);
+  background-color: rgb(243, 250, 248);
 }
 .space {
   margin-top: 15px;
@@ -460,8 +446,6 @@ div #boop {
   background-image: url(./Images/bk2.png);
   background-size: cover;
 }
-
-
 
 .hhh {
   display: flex;
@@ -496,16 +480,15 @@ footer {
   margin-left: 300px;
   color: antiquewhite;
 }
-.map{
+.map {
   margin-left: 225px;
   margin-top: 360px;
 }
 
-.form{
+.form {
   margin-left: 560px;
   margin-top: 260px;
 }
-
 
 * {
   margin: 0;
@@ -551,7 +534,7 @@ h1 {
   grid-row-start: 1;
   grid-row-end: 6;
   background: rgb(250, 248, 248);
-  
+
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
@@ -581,11 +564,10 @@ h1 {
   font-size: 100%;
 }
 
-.item-5{
+.item-5 {
   grid-column: 3;
   grid-row: 5;
   font-size: 100%;
-
 }
 
 .timeline-item {
@@ -594,7 +576,7 @@ h1 {
   padding: 10%;
   margin: 10%;
   background: rgba(12, 11, 11, 0.692);
- 
+
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
@@ -614,7 +596,7 @@ h1 {
     grid-column: 2;
   }
 }
-.aboutme h1{
+.aboutme h1 {
   margin-bottom: 30px;
   font-size: 40px;
   margin-left: 900px;
@@ -623,16 +605,15 @@ h1 {
   text-transform: uppercase;
   margin-top: 30px;
 }
-.aboutme p{
+.aboutme p {
   margin-bottom: 25px;
   font-size: 20px;
   margin-left: 350px;
   color: whitesmoke;
   font-family: montserrat;
   margin-right: 30px;
-  
 }
-.why h2{
+.why h2 {
   margin-bottom: 25px;
   font-size: 40px;
   margin-left: 920px;
@@ -640,21 +621,50 @@ h1 {
   font-family: montserrat;
   text-transform: uppercase;
   margin-top: 30px;
-
 }
-.why p{
+.why p {
   /* margin-b: 25px; */
   font-size: 20px;
   margin-left: 350px;
   color: whitesmoke;
   font-family: montserrat;
   margin-right: 30px;
+}
+.aboutme {
+  margin-top: -220px;
+}
+.per {
+  margin-left: 400px;
+  margin-top: 100px;
+  font-family: montserrat;
+  text-transform: uppercase;
+  color: white;
+}
+.pers2 {
+  margin-top: 15px;
+}
+.pers {
+  margin-bottom: 15px;
+}
+.pers3 {
+  margin-top: 15px;
+}
+.pers4 {
+  margin-top: 15px;
+}
+.hob {
+  margin-left: 600px;
+}
 
+.h4 {
+  font-family: montserrat;
+  text-transform: uppercase;
+  font-size: 20px;
+}
 
+.sft {
+  margin-left: 400px;
+  margin-top: 10px;
 }
-.aboutme{
-  margin-bottom: 600px;
-}
-.per{
-  margin-left: 100px;
-}
+
+@media screen and (max-width);
